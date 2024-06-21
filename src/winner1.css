@@ -1,0 +1,59 @@
+/* Winner1.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.containers {
+    max-width: 10000px;
+    margin: 50px auto;
+    /* Corrected the margin */
+    padding: 100px;
+    background-color: white;
+    /* Added background color for better visibility */
+    border-radius: 8px;
+    box-shadow: 10 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    background-color: white;
+    padding: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+li:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.user-id {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.average-marks {
+    color: #000;
+    /* Changed to black for better visibility */
+}
+
+.name {
+    color: #6c757d;
+}
